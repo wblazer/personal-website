@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Blazer</title>
     <link href="index.css" rel="stylesheet">
+    <script src="index.js" defer></script>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 <body>
     <div id="content-wrapper">
         <header>
             <nav>
-                <div class="nav-item"><a href="#about" class="nav-link">About</a></div>
+                <div class="nav-item"><a href="#about" class="nav-link active">About</a></div>
                 <div class="nav-item"><a href="#experience" class="nav-link">Experience</a></div>
                 <div class="nav-item"><a href="#projects" class="nav-link">Projects</a></div>
             </nav>
@@ -19,15 +20,62 @@
     
         <section id="about">
             <h1>William Blazer</h1>
-            <p>I'm a software engineering student focused on web development</p>
+            <p>
+                I'm a software engineering student focused on honing my web development skills. This website mostly mirrors my resume for now, but I plan to add more in the future. 
+                If you would like to check out my actual resume you can do so 
+                <a href="https://drive.google.com/file/d/1VaNLUAot9RM0FBiZinJrmLCZOHpOQybb/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>.
+                If you would like to get in touch feel free to send me an <a href="mailto:williamblazer2@gmail.com">email</a>.
+            </p>
+            <p>
+                When I'm not busy with work or school, you can find me reading, playing video games, listening to new albums, or occasionally rock climbing.
+                I'm also passionate about esports, animal rights, cooking, and nutrition.
+            </p>
         </section>
     
         <section id="experience">
             <h2>Experience</h2>
+            <div class="module">
+                <p class="accent-text">May 2023 to present</p>
+                <a class="stealth-link" href="https://firespring.com/" target="_blank" rel="noopener noreferrer"><h3>Firespring · Software Engineer Intern</h3></a>
+                <ul>
+                    <li>Maintained and updated charity website serving up to 400,000 monthly users</li>
+                    <li>Followed established Agile practices to contribute maintainable, well-tested code to mature codebase</li>
+                    <li>Modernized legacy webpages by porting from PHP to Rails</li>
+                </ul>
+            </div> 
+            <div class="module">
+                <p class="accent-text">May 2022 to May 2023</p>
+                <a class="stealth-link" href="https://www.essvote.com/" target="_blank" rel="noopener noreferrer"><h3>Election Systems & Software · Software Engineer Intern</h3></a>
+                <ul>
+                    <li>Integrated Punjabi into ballot scanner and tabulator to allow continued sales in regions with changing demographics</li>
+                    <li>Automated and documented the integration of new languages into outdated translation system</li>
+                    <li>Restored and documented legacy UI testing development tool</li>
+                </ul>
+            </div>           
         </section>
     
         <section id="projects">
             <h2>Projects</h2>
+            <div class="module">
+                <p class="accent-text">Ruby on Rails, Tailwind</p>
+                <h3>Gambol · Senior Design Project</h3>
+                <ul>
+                    <li>Developed an intramural sports management application to streamline registration, scheduling, and match check-in</li>
+                    <li>Constructed reusable components to define a unified look and feel and save frontend development time</li>
+                    <li>Created dynamic webpages to display and interact with complex data models such as leagues, seasons, and waivers</li>
+                    <li>Added social features such as reactions to increase user engagement</li>
+                </ul>
+            </div>
+            <div class="module">
+                <p class="accent-text">React, Node.js, SQL</p>
+                <h3>Know Your Well App · Senior Design Project</h3>
+                <ul>
+                    <li>Built a progressive web application for the Know Your Well science program, enabling participating high school students to enter well data from the field</li>
+                    <li>Integrated caching to allow data to be saved offline and uploaded when an internet connection is available</li>
+                    <li>Established CI/CD pipeline to automatically test and deploy project to Azure</li>
+                    <li>Ensured use of proper Agile development practices in team of 5 other students</li>
+                </ul>
+            </div>
         </section>
     </div>
 </body>
